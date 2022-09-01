@@ -1,0 +1,181 @@
+body {
+	background-color:white;	
+}
+
+.obj {
+	width: 85px;
+	height: 30px;
+	background-color:#f8f8f8;
+	border: 1px solid #c6c6c6;
+	margin-top:3px;
+	font-family: arial;
+	margin-bottom:3px;
+	margin-left:3px;
+	border-radius:5px;
+	color:#202124;
+	box-shadow: 0 1px #999;
+}
+
+.obj1 {
+	width: 85px;
+	height: 30px;
+	background-color:rgba(60, 64, 67, 0.2);	
+	border: 1px solid rgba(60, 64, 67, 0.1);
+	margin-top:3px;
+	font-family: arial;
+	margin-bottom:3px;
+	margin-left:3px;
+	border-radius:5px;
+	color:#202124;
+	box-shadow: 0 1px #999;
+}
+
+#keyField {
+	margin-left: 220px;
+	border:1px solid black;
+	width: 368px;
+	height:345px;
+	padding:5px;
+	background-image: linear-gradient(white, rgb(204, 228, 236));
+}
+
+#equal {
+	background-color:#3c78dc;
+	border:1px solid #3c78dc;
+	color:white;
+	width: 85px;
+	height: 30px;
+	margin-bottom:3px;
+	margin-left:3px;
+	border-radius:5px;
+	font-size: medium;
+	font-weight:bold;
+	box-shadow: 0 1px #999;
+}
+
+#display{
+	width:359px;
+	height:120px;
+	margin-left:3px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border: 1px solid black;
+	border-radius:5px;
+	background-color: white;
+}
+
+#answerBox {
+	width: 345px;
+	height:30px;
+	margin-left:4px;
+	margin-top:5px;
+	margin-bottom:10px;
+	font-size: 24px;
+	border: none;
+	text-align: right;
+}
+
+#textBox {
+	width: 345px;
+	height:50px;
+	margin-left:4px;
+	margin-top:15px;
+	margin-bottom:10px;
+	font-size: 32px;
+	border: none;
+	text-align: right;
+	display:block;
+	word-wrap: break-word;
+}
+
+#mainName {
+	margin-left:45px;
+	font-family: Ravie;
+	font-size: 20px;
+	color:rgba(152, 160, 165, 0.781);
+	-webkit-text-stroke:0.1px rgb(105, 105, 105);
+}
+
+#clearHistory{
+	width:25px;
+	height:25px;
+	margin-left:20px;
+	border-radius:12px;
+	border:1px solid grey;
+	background-color: rgba(60, 64, 67, 0.2);
+	font-weight: bold;
+	font-family: Arial Black;
+}
+
+#clearHistory:hover{
+	background-color:rgba(152, 160, 165, 0.781);
+	color:black;
+	transition:0.5s ease-in-out;
+}
+
+#clearHistory:active{
+	box-shadow: 0 1px #666;
+	transform: translateY(6px);
+}
+
+#Descriptions{
+	width: 500px;
+	height: 356px;
+	background-image: linear-gradient(white, rgb(204, 228, 236));
+	border: 1px solid black;
+	margin-top: -357px;
+	margin-left: 640px;
+}
+
+#descriptionBox{
+	width:450px;
+	height:305px;
+	background-color: #f8f8f8;
+	border:1px solid black;
+	margin-left:22px;
+	margin-top: 22px;
+	font-size:18px;
+	font-family: Arial;
+	text-align: center;
+	border-radius:12px;
+	word-wrap: break-word;
+}
+
+.obj:hover{
+	background-color:rgb(222, 230, 247);
+	color:black;
+	transition:0.5s ease-in-out;
+	font-weight:bold;
+}
+
+.obj:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(7px);
+}
+
+#equal:hover{
+	background-color:rgb(76, 142, 240);
+	font-size: medium;
+	transition:0.5s ease-in-out;
+}
+
+#equal:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(7px);
+}
+
+#point{
+	font-weight: bold;
+}
+
+.obj1:hover{
+	background-color:rgba(152, 160, 165, 0.781);
+	transition:0.5s ease-in-out;
+	font-weight:bold;
+}
+
+.obj1:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(7px);
+}
+
