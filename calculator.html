@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Forms</title>
+	<link rel="stylesheet" href="calculatorstyles.css">
+	
+	</head>
+	<body>
+           <form onsubmit="" >
+	      
+
+		<div id="keyField">
+			<label id="mainName"><b>Swaglite Calculator</b></label>
+			<input type ="button" id="clearHistory" value="C" onclick="wipeHistory()">
+		    <div id="display">
+			<input type="text" id="answerBox">
+			<input type="text" id="textBox">
+		    </div>
+		    <div>
+			<input type ="button" id="bracketLeft" value="(" class="obj1" onclick="tellOpenBracket()">
+			<input type ="button" id="bracketRight" value=")" class="obj1" onclick="tellCloseBracket()">
+			<input type ="button" id="percent" value="&larr;" class="obj1" onclick="backspace()">
+			<input type ="button" id="reset" value="AC" class="obj1" onclick="tellClearField()"></div>
+	  	    <div id="secondRow">
+			<input type ="button" id="seven" value="7" class="obj" onclick="tellNumSeven()">
+			<input type ="button" id="eight" value="8" class="obj" onclick="tellNumEight()">
+			<input type ="button" id="nine" value="9" class="obj" onclick="tellNumNine()">
+			<input type ="button" id="slash" value="&divide" class="obj1" onclick="tellDivide()"></div>
+		    <div>
+			<input type ="button" id="four" value="4" class="obj" onclick="tellNumFour()">
+			<input type ="button" id="five" value="5" class="obj" onclick="tellNumFive()">
+			<input type ="button" id="six" value="6" class="obj" onclick="tellNumSix()">
+			<input type ="button" id="star" value="&times" class="obj1" onclick="tellMultiply()"></div>
+		    <div>
+			<input type ="button" id="one" value="1" class="obj" onclick="tellNumOne()">
+			<input type ="button" id="two" value="2" class="obj" onclick="tellNumTwo()">
+			<input type ="button" id="three" value="3" class="obj" onclick="tellNumThree()">
+			<input type ="button" id="minus" value="-" class="obj1" onclick="tellSubtract()"></div>
+		    <div>
+			<input type ="button" id="zero" value="0" class="obj" onclick="tellNumZero()">
+			<input type ="button" id="point" value="." class="obj" onclick="tellPoint()">
+			<input type ="button" id="equal" value="=" class="equ" onclick="calculate(); showcalc()">
+			<input type ="button" id="plus" value="+" class="obj1" onclick="tellAdd()"></div>
+		</div>
+		<aside id="Descriptions">
+			<textarea type="text" id="descriptionBox"></textarea>
+		</aside>
+			
+           </form>
+		   <script src="calculatorjs.js"></script>
+        </body>
+</html>
+
+
